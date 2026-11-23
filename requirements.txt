@@ -1,0 +1,2 @@
+# MCP SDK (v1 API: FastMCP). Pinned below 2.x on purpose.
+mcp[cli]>=1.2,<2

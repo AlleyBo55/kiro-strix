@@ -1,0 +1,24 @@
+# === Secrets — never commit ===
+.env
+.env.*
+!.env.example
+
+# === Python environment ===
+.venv/
+__pycache__/
+*.pyc
+
+# === Scan outputs (can contain real vulnerabilities / sensitive data) ===
+runs/
+strix_runs/
+strix_runs*/
+*.log
+
+# === Strix local config (may contain credentials) ===
+.strix/
+
+# === Machine-specific Kiro settings (absolute paths, not portable) ===
+.kiro/settings/
+
+# === OS cruft ===
+.DS_Store
